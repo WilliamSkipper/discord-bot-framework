@@ -1,0 +1,10 @@
+**Setup**
+
+Create a file named ".env" (without the "") and add "TOKEN = your_token_here"
+
+In config.json edit:
+    testServer with your test server id (this is to run commands that are in beta and not read to be run by the public)
+    accentColor is the embed color
+    errorColor is the error embed color
+    activity is the bots status
+    devs are the ids of the people that should be able to run dev only commmands
