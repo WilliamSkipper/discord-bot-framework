@@ -8,3 +8,17 @@ In config.json edit:
     errorColor is the error embed color
     activity is the bots status
     devs are the ids of the people that should be able to run dev only commmands
+
+
+online
+idle
+dnd
+invisible
+
+
+ActivityType.Competing
+ActivityType.Custom
+ActivityType.Listening
+ActivityType.Playing
+ActivityType.Streaming
+ActivityType.Watching

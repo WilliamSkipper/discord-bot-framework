@@ -1,7 +1,10 @@
 {
   "testServer": "1197118668908286023",
+  "prefix": "!",
   "accentColor": "#514ef2",
   "errorColor": "#f2594e",
-  "activity": "ⓘ Bot is suspected to be part of an online terrorist organization. Please report any suspicious activity to Discord staff.",
+  "activity": "This is a bot",
+  "status": "online",
+  "type": "Custom",
   "devs": ["1187482959809359953"]
 }

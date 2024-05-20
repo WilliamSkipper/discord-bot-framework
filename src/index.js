@@ -6,7 +6,9 @@ const client = new Client({
     intents: [
         IntentsBitField.Flags.Guilds,
         IntentsBitField.Flags.GuildMembers,
-        IntentsBitField.Flags.GuildMessages
+        IntentsBitField.Flags.MessageContent,
+        IntentsBitField.Flags.GuildMessages,
+        IntentsBitField.Flags.DirectMessages,
     ],
     partials: [
         Partials.Message,
@@ -15,6 +17,7 @@ const client = new Client({
     ]
 })
 
+client.setMaxListeners(999); 
 eventHandler(client)
 
 
